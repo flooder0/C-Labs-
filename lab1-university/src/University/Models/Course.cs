@@ -1,0 +1,10 @@
+namespace University.Models;
+
+public abstract class Course
+{
+    public Guid Id { get; set; }
+    public string Title { get; set; } = string.Empty;
+    public Guid? TeacherId { get; set; }
+}
+
+
